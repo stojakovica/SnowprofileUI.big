@@ -837,6 +837,7 @@ Ext.define('Ext.draw.Surface', {
     getPathtext: function (el) {
         var bbox = this.getBBoxText(el);
         return this.rectPath(bbox.x, bbox.y, bbox.width, bbox.height);
+        //return this.rectPath(100, bbox.y, bbox.width, bbox.height);
     },
 
     createGroup: function(id) {
