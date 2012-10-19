@@ -3,7 +3,7 @@ apply plugin:'java'
 apply plugin:'eclipse'
 
 
-mainClassName = 'at.ac.dbisinformatik.snowprofile.web.ServerMain'
+mainClassName = 'at.ac.dbisinformatik.snowprofile.app.ServerMain'
 	
 repositories {
 	maven {
