@@ -6,9 +6,10 @@ apply plugin:'eclipse'
 mainClassName = 'at.ac.dbisinformatik.snowprofile.app.ServerMain'
 	
 repositories {
+	mavenCentral()
 	maven {
-		url "http://dbis-qa.uibk.ac.at/nexus/content/groups/snowprofile/"
-	}
+        	url "http://maven.restlet.org"
+    	}
 }
 
 dependencies {
